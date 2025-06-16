@@ -3,12 +3,12 @@
 Validate vector tiles based on the [Mapbox Vector Tile Specification 2.x](https://www.mapbox.com/vector-tiles/specification/) via [vtzero](https://github.com/mapbox/vtzero).
 
 [![node-cpp-skel](https://raw.githubusercontent.com/mapbox/cpp/master/assets/node-cpp-skel-badge_blue.svg)](https://github.com/mapbox/node-cpp-skel)
-[![Build Status](https://travis-ci.com/mapbox/vtvalidate.svg?branch=master)](https://travis-ci.com/mapbox/vtvalidate)
-[![codecov](https://codecov.io/gh/mapbox/vtvalidate/branch/master/graph/badge.svg)](https://codecov.io/gh/mapbox/vtvalidate)
+[![Build Status](https://travis-ci.com/maplibre/vtvalidate.svg?branch=master)](https://travis-ci.com/maplibre/vtvalidate)
+[![codecov](https://codecov.io/gh/maplibre/vtvalidate/branch/master/graph/badge.svg)](https://codecov.io/gh/maplibre/vtvalidate)
 
 ## Build & Test
 ```shell
-git clone git@github.com:mapbox/vtvalidate.git
+git clone git@github.com:maplibre/vtvalidate.git
 cd vtvalidate
 
 # Build binaries. This looks to see if there were changes in the C++ code. This does not reinstall deps.
@@ -34,7 +34,7 @@ make distclean
 
 #### Valid tile
 ```js
-var vtvalidate = require('@mapbox/vtvalidate');
+var vtvalidate = require('@maplibre/vtvalidate');
 
 ...
 
@@ -49,7 +49,7 @@ vtvalidate.isValid(buffer, function(err, result) {
 
 #### Invalid tile
 ```js
-var vtvalidate = require('@mapbox/vtvalidate');
+var vtvalidate = require('@maplibre/vtvalidate');
 
 ...
 

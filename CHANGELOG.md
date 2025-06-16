@@ -11,7 +11,7 @@
 
 ## v0.2.3
 
-- Add `-Wno-error=deprecated-declarations` flags to binding.gyp to turn NAN errors into warnings [#27](https://github.com/mapbox/vtvalidate/issues/27)
+- Add `-Wno-error=deprecated-declarations` flags to binding.gyp to turn NAN errors into warnings [#27](https://github.com/maplibre/vtvalidate/issues/27)
 - Add package-lock.json
 
 ## v0.2.2
@@ -20,14 +20,14 @@
 
 ## v0.2.1
 
-- Update bench test to handle errors properly per https://github.com/mapbox/vtvalidate/pull/19
-- Changes: https://github.com/mapbox/vtvalidate/compare/v0.2.0...v0.2.1
+- Update bench test to handle errors properly per https://github.com/maplibre/vtvalidate/pull/19
+- Changes: https://github.com/maplibre/vtvalidate/compare/v0.2.0...v0.2.1
 
 ## v0.2.0
 
-- Add gzip-hpp compression support per https://github.com/mapbox/vtvalidate/pull/18
+- Add gzip-hpp compression support per https://github.com/maplibre/vtvalidate/pull/18
 - Add CLI
-- Changes: https://github.com/mapbox/vtvalidate/compare/v0.1.0-alpha1...v0.2.0
+- Changes: https://github.com/maplibre/vtvalidate/compare/v0.1.0-alpha1...v0.2.0
 
 ## v0.1.0-alpha1
 - Initial release based on node-cpp-skel
