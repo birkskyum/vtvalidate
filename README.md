@@ -3,8 +3,6 @@
 Validate vector tiles based on the [Mapbox Vector Tile Specification 2.x](https://www.mapbox.com/vector-tiles/specification/) via [vtzero](https://github.com/mapbox/vtzero).
 
 [![node-cpp-skel](https://raw.githubusercontent.com/mapbox/cpp/master/assets/node-cpp-skel-badge_blue.svg)](https://github.com/mapbox/node-cpp-skel)
-[![Build Status](https://travis-ci.com/maplibre/vtvalidate.svg?branch=master)](https://travis-ci.com/maplibre/vtvalidate)
-[![codecov](https://codecov.io/gh/maplibre/vtvalidate/branch/master/graph/badge.svg)](https://codecov.io/gh/maplibre/vtvalidate)
 
 ## Build & Test
 ```shell
